@@ -20,28 +20,29 @@ public class Horario {
             } else {
                 h.SetHora();
                 if (h.GetOPC() == 1) {
+                    
+                        if (h.GetHora() <= 11) {
+                            System.out.println("***Bom Dia***");
+                            h.ExibirHora();
 
-                    if (h.GetHora() <= 11) {
-                        System.out.println("***Bom Dia***");
-                        h.ExibirHora();
+                        } else {
+                            if (h.GetHora() <= 18) {
+                                System.out.println("***Boa Tarde***");
+                                h.ExibirHora();
+                            }
 
-                    } else {
-                        if (h.GetHora() <= 18) {
-                            System.out.println("***Boa Tarde***");
+                        }
+
+                        if (h.GetHora() >= 19) {
+                            System.out.println("****Boa noite****");
                             h.ExibirHora();
                         }
 
-                    }
-
-                    if (h.GetHora() >= 19) {
-                        System.out.println("****Boa noite****");
-                        h.ExibirHora();
-                    }
+                    
 
                 }
 
             }
-
         } while (h.GetOPC() != 0);
 
     }

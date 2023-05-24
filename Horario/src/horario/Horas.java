@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package horario;
 
 import java.util.Scanner;
 
-/**
- *
- * @author nanah
- */
+
+
 public class Horas {
 
     private int hora, opc;
@@ -27,7 +21,7 @@ public class Horas {
         }
 
     public void ExibirHora() {
-        System.out.println("***Horário é : " + hora);
+        System.out.println("***Horário é : " + hora+" ***");
         }
 
     public void SetOPC() {
