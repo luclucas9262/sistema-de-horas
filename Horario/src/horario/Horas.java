@@ -38,7 +38,8 @@ public class Horas {
         System.out.println("Opção Inválida! ");
 
         }
-
+    
+    //***sair metodo***//
     public void Sair() {
         System.out.println("Sistema Encerrado");
         System.exit(0);

@@ -37,9 +37,6 @@ public class Horario {
                             System.out.println("****Boa noite****");
                             h.ExibirHora();
                         }
-
-                    
-
                 }
 
             }
